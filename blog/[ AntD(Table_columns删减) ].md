@@ -1,6 +1,6 @@
 ## 2020/06/30小记
 
-**AntD(Table_columns删减) **
+**AntD(Table_columns删减)**
 
 实现思路:
 ``通过splice方法.找到需要删减的位置和数量``
