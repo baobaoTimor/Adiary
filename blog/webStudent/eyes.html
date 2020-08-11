@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>眼镜黑心圆半径为10,外圆半径为40,眼镜架长度100,倾斜45度</title>
+</head>
+<style type="text/css">
+    .content {
+        background: rgb(77, 203, 249);
+        height: 300px;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .round {
+        border: 3px solid blue;
+        height: 90px;
+        width: 90px;
+        border-radius: 100px;
+        position: relative;
+    }
+    .circle {
+        background: black;
+        height: 20px;
+        width: 20px;
+        border-radius: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .line {
+        background: blue;
+        height: 100px;
+        width: 3px;
+        position: absolute;
+        bottom: 85%;
+        left: 85%;
+        transform: rotate(45deg);
+    }
+</style>
+<body>
+    <div class="content">
+        <div class="round">
+            <div class="line"></div>
+            <div class="circle"></div>
+        </div>
+        <div class="round">
+            <div class="line"></div>
+            <div class="circle"></div>
+        </div>
+    </div>
+</body>
+</html>
